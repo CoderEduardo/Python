@@ -8,6 +8,8 @@ elif valor <= 1000:
     desconto = valor-(valor * 0.10)
 else:
     print("Você tem 20 % de desconto")
-    desconto = valor-(valor * 0.20)
+    desconto = valor-(valor * 0.20) 
     
 print(f"O valor total a se pagar é de {desconto:.2f}")
+
+print("Teste")
